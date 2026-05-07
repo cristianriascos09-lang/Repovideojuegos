@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de los Videojuegos</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+        }
+
+        header{
+            background: rgba(0,0,0,0.7);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+        }
+
+        header h1{
+            font-size: 40px;
+            color: #00ffd5;
+        }
+
+        nav{
+            margin-top: 15px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover{
+            color: #00ffd5;
+        }
+
+        .banner{
+            height: 400px;
+            background: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .banner h2{
+            background: rgba(0,0,0,0.6);
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 38px;
+        }
+
+        .contenedor{
+            width: 90%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .card{
+            background: rgba(255,255,255,0.1);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+            transition: transform 0.3s;
+        }
+
+        .card:hover{
+            transform: scale(1.03);
+        }
+
+        .card h3{
+            color: #00ffd5;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        .card p{
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        .imagenes{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .imagenes img{
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+            transition: 0.3s;
+        }
+
+        .imagenes img:hover{
+            transform: scale(1.05);
+        }
+
+        footer{
+            background: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer p{
+            color: #ccc;
+        }
+
+        @media(max-width:768px){
+            .banner h2{
+                font-size: 28px;
+            }
+
+            .card p{
+                font-size: 16px;
+            }
+
+            .imagenes img{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Historia de los Videojuegos</h1>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#origen">Origen</a>
+            <a href="#evolucion">Evolución</a>
+            <a href="#actualidad">Actualidad</a>
+        </nav>
+    </header>
+
+    <section class="banner" id="inicio">
+        <h2>La Evolución del Entretenimiento Digital</h2>
+    </section>
+
+    <div class="contenedor">
+
+        <section class="card" id="origen">
+            <h3>🎮 Los Primeros Videojuegos</h3>
+
+            <p>
+                Los videojuegos comenzaron en la década de 1950 con experimentos
+                electrónicos creados por científicos e ingenieros. Uno de los
+                primeros juegos fue <strong>Tennis for Two</strong>, creado en 1958.
+                Más adelante, en 1972, apareció la famosa consola Atari junto al
+                exitoso juego Pong, marcando el inicio de la industria de los videojuegos.
+            </p>
+
+            <div class="imagenes">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Pong.png" alt="Pong">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Atari-2600-Wood-4Sw-Set.jpg" alt="Atari">
+            </div>
+        </section>
+
+        <section class="card" id="evolucion">
+            <h3>🕹️ La Evolución de las Consolas</h3>
+
+            <p>
+                Durante los años 80 y 90 surgieron consolas legendarias como
+                Nintendo Entertainment System (NES), Sega Genesis y PlayStation.
+                Los videojuegos evolucionaron de gráficos simples en 2D a increíbles
+                mundos en 3D, revolucionando la manera de jugar y contar historias.
+            </p>
+
+            <div class="imagenes">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Nintendo_Entertainment_System.jpg" alt="NES">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PSX-Console-wController.jpg" alt="PlayStation">
+            </div>
+        </section>
+
+        <section class="card" id="actualidad">
+            <h3>🚀 Los Videojuegos en la Actualidad</h3>
+
+            <p>
+                Hoy en día los videojuegos son una de las industrias más grandes
+                del mundo. Existen juegos en línea, realidad virtual y competencias
+                profesionales llamadas eSports. Consolas modernas como PlayStation 5,
+                Xbox Series X y Nintendo Switch ofrecen experiencias sorprendentes
+                con gráficos realistas y conectividad global.
+            </p>
+
+            <div class="imagenes">
+                <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=1200&auto=format&fit=crop" alt="Gaming">
+                <img src="https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1200&auto=format&fit=crop" alt="Esports">
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 - Página creada sobre la Historia de los Videojuegos</p>
+    </footer>
+
+</body>
+</html>
